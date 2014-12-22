@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ --std=c++11 `allegro-config --libs` -lm -g laserwar.cpp && ./a.out
